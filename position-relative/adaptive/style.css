@@ -1,0 +1,33 @@
+.section {
+    background: #bebff3;
+    padding: 20px;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+.section h1 {
+    color: #b95587;
+    overflow: hidden;
+    font-weight: normal;
+    margin-top: 0;
+    text-align: center;
+}
+.section h1::before, .section h1::after {
+    content: '';
+    background: #035ee7;
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+}
+.section h1::before {
+    right: 10px;
+    margin-left: -50%;
+}
+.section h1::after {
+    left: 10px;
+    margin-right: -50%;
+}
+p {
+    text-align: center;
+}

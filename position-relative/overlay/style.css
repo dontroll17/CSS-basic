@@ -1,0 +1,17 @@
+body {
+    background: #3541e4;
+    margin: 0;
+}
+.background {
+    min-height: 200px;
+    background: #0adb0a;
+}
+.ctx {
+    width: 400px;
+    min-height: 250px;
+    margin: auto;
+    background: rgb(247, 2, 2);
+    border: 3px solid #d3d2d0;
+    position: relative;
+    top: -70px;
+}
