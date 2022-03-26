@@ -1,0 +1,15 @@
+.type {
+    position: absolute;
+    left: 50%;
+    top: 50px;
+    transform-origin: 50% 100%;
+}
+.type1 {
+    transform: rotateZ(-15deg);
+}
+.type3 {
+    transform: rotateZ(15deg);
+}
+.type:hover {
+    z-index: 2;
+}

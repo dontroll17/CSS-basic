@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+}
+.sidebar, .content {
+    position: absolute;
+    overflow:auto;
+    padding: 10px;
+    top: 61px;
+    bottom: 0;
+}
+header {
+    height: 60px;
+    background: rgb(201, 253, 216);
+    border-bottom: 1px solid #7b5427;
+}
+header h1 {
+    line-height: 60px;
+    margin: 0 10px;
+}
+.sidebar {
+    width: 150px;
+    background: rgb(114, 132, 180);
+    border-right: 1px solid #231F20;
+}
+.content {
+    left: 171px;
+    right: 0;
+}
