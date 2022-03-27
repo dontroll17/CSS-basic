@@ -1,0 +1,26 @@
+[data-tooltip] {
+    position: relative;
+}
+
+[data-tooltip]:hover::before {
+    content: '';
+    position: absolute;
+    top: 1.4em;
+    left: 20px;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #3989c9;
+}
+[data-tooltip]:hover::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    width: 400px;
+    left: 0;
+    top: 2em;
+    background: #3989c9;
+    color: white;
+    padding: .5em;
+    border-radius: 5px;
+}

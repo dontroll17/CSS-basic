@@ -1,0 +1,22 @@
+.block {
+    position: relative;
+    background: red;
+    height: 160px;
+    padding: 20px;
+    border: 1px solid #000;
+}
+.block-2 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background: rgb(161, 247, 111);
+    width: 100px;
+    height: 50px;
+    border: none;
+    border-radius: 20px;
+}
+.block-2:hover {
+    width: 120px;
+    height: 60px;
+    border: 2px solid rgb(26, 236, 61)
+}
