@@ -1,0 +1,6 @@
+div {
+    background: rgb(123, 248, 144);
+    padding: 40px;
+    outline: 2px solid white;
+    outline-offset: -20px;
+}
