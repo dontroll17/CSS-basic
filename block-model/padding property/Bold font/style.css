@@ -1,0 +1,9 @@
+div {
+    font-family: 'Oswald', sans-serif;
+    margin: 1rem 0;
+    line-height: 2;
+}
+span {
+    background: #ecc24c;
+    padding: 3px 10px;
+}
