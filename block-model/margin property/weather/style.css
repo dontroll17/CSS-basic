@@ -1,0 +1,20 @@
+section {
+    text-align: center;
+}
+.weather {
+    color: white;
+    display: inline-block;
+    padding: 10px;
+    margin: 0 5px;
+    text-align: center;
+}
+.weather1 {
+    background: rgb(252, 252, 98);
+    color: Black
+}
+.weather2 {
+    background: lightgray;
+}
+.weather3 {
+    background: grey;
+}

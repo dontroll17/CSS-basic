@@ -1,0 +1,12 @@
+.minerals {
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+.minerals td {
+    border: 1px solid #000;
+}
+.minerals td:nth-child(3) {
+    text-align: center;
+}
