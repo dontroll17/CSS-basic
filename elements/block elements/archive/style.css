@@ -1,0 +1,33 @@
+.block {
+    border: 1px solid white;
+}
+.block h2 {
+    background: #f5f4f1;
+    color: #444;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px;
+    margin: 0;
+    font-size: 16px;
+}
+.content ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.content li {
+    border-top: 1px solid #ddd;
+}
+.content li:first-child {
+    border-top: none;
+}
+.content a {
+    color: #444;
+    text-decoration: none;
+    display: block;
+    padding: 5px 10px;
+}
+.content a:hover {
+    background: #bc8e5c;
+    color: #fff;
+}

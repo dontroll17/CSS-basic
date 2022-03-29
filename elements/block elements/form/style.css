@@ -1,0 +1,42 @@
+body {
+    background: #18326d;
+}
+.form {
+    background: #2b416a;
+    padding: 20px;
+    margin: 20px;
+    border: 1px olid #44567e;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, .3);
+}
+.row {
+    overflow: hidden;
+    margin-bottom: 1rem;
+}
+label {
+    color: #8dacfe;
+    width: 100px;
+    float: left;
+    text-align: right;
+    margin-right: 10px;
+}
+input, textarea {
+    background: #182a50;
+    box-shadow: inset -2px -2px 2px #425575;
+    width: 300px;
+    border: none;
+    color: white;
+    padding: 5px;
+}
+textarea {
+    height: 100px;
+    resize: none;
+}
+button {
+    margin-left: 110px;
+    background: #0d1321;
+    border: none;
+    color: #6d82bb;
+    padding: 10px 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
