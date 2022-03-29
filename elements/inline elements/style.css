@@ -1,0 +1,35 @@
+body {
+    background: white;
+    font-family: Arial, sans-serif;
+}
+.block {
+    background: white;
+}
+.title {
+    background: #e1e1e1;
+}
+.title h2 {
+    display: inline-block;
+    background: #d63138;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px;
+    margin: 0;
+    font-size: 16px;
+}
+.content {
+    padding: 10px;
+    line-height: 1.4;
+}
+.content ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.content li {
+    display: inline;
+    margin-right: 10px;
+}
+.content a {
+    color: #363636;
+}
