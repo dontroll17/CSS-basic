@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+}
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    background-color: beige;
+    height: 100vh;
+    flex-wrap: wrap;
+}
+.wrapper > div {
+    padding: .5em;
+    font-size: 5vw;
+    color: white;
+    width: 60%;
+}
+.red {
+    background: orangered;
+}
+.green {
+    background: yellowgreen;
+}
+.blue {
+    background: steelblue;
+}

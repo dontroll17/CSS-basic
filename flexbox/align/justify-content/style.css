@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+}
+.wrapper {
+    display: flex;
+    justify-content:  space-between;
+    background-color: beige;
+    height: 100vh;
+}
+.wrapper > div {
+    padding: 20px;
+    font-size: 4vw;
+    color: white;
+}
+.red {
+    background: orangered;
+}
+.green {
+    background: yellowgreen;
+}
+.blue {
+    background: steelblue;
+}

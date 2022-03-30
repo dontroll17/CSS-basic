@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+}
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: beige;
+    height: 100vh;
+}
+.wrapper > div {
+    padding: 20px;
+    font-size: 4vw;
+    color: white;
+}
+.red {
+    background: orangered;
+    align-self: flex-start;
+    margin: auto;
+}
+.green {
+    background: yellowgreen;
+}
+.blue {
+    background: steelblue;
+    align-self: flex-end;
+}
